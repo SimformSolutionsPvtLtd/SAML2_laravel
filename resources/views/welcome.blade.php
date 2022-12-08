@@ -15,7 +15,7 @@
         }
 
         body {
-            background-color: #e1e2dd;
+            background-color: #fff;
             text-align: center;
             font-family: "Gill Sans", sans-serif;
             font-size: 16px;
@@ -30,7 +30,7 @@
 
         .profile {
             height: auto;
-            width: 125px;
+            width: 200px;
             margin: auto;
         }
 
@@ -175,12 +175,12 @@
     <div class='container'>
         <section class='header' id='header' name='Header' >
         <img alt='profile' class='profile'
-        src='https://bookstack.soffid.com/uploads/images/gallery/2021-09/0dNsaml-logo.png' />
+        src='https://media.designrush.com/agencies/194601/conversions/Simform-logo-profile.jpg' />
         <p class='center-p'>A easiest way to inetgrate SAML2!</p> <br>
         <div id='align'>
-            <a class='link shake' href='#'>Light Saml</a>
-            <a class='link' href='#'>Using OneLogin Toolkit</a>
-            <a class='link' href='#'>Auth0 SDK</a>
+            <a class='link shake' href='/lightsaml/login'>Light Saml</a>
+            <a class='link' href='/saml2/auth0/login'>Using OneLogin Toolkit</a>
+            <a class='link' href='/login'>Auth0 SDK</a>
             <a class='link' href='#'>OneLogin SDK</a>
         </div>
     </div>
