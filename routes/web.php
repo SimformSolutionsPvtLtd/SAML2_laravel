@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\LightSamlController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/lightsaml/auth', [LightSamlController::class, 'authRequest']);
+Route::get('/lightsaml/metadata', [LightSamlController::class, 'entityDescriptor']);
+Route::get('/lightsaml/login', [LightSamlController::class, 'bindRequest']);
