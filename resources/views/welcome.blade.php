@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnlyLinx | Hassified</title>
+    <title>SAML2</title>
     <!-- social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -15,7 +15,7 @@
         }
 
         body {
-            background-color: #e1e2dd;
+            background-color: #fff;
             text-align: center;
             font-family: "Gill Sans", sans-serif;
             font-size: 16px;
@@ -30,9 +30,7 @@
 
         .profile {
             height: auto;
-            width: 125px;
-            border-radius: 90px;
-            border: #6a6a6a solid 3px;
+            width: 200px;
             margin: auto;
         }
 
@@ -175,27 +173,16 @@
 
 <body>
     <div class='container'>
-        <b:section class='header' id='header' name='Header' />
-        <img alt='profile' class='profile' src='' />
-        <p class='user-p'>OnlyLinx</p>
-        <p class='center-p'>A way to share your social links!</p>
+        <section class='header' id='header' name='Header' >
+        <img alt='profile' class='profile'
+        src='https://media.designrush.com/agencies/194601/conversions/Simform-logo-profile.jpg' />
+        <p class='center-p'>A easiest way to inetgrate SAML2!</p> <br>
         <div id='align'>
-            <a class='link shake' href='#'>Web Site</a>
-            <a class='link' href='#'>Etsy Shop</a>
-            <a class='link' href='#'>Discord</a>
-            <a class='link' href='#'>DeviantART</a>
-            <a class='link' href='#'>Contact Me</a>
+            <a class='link shake' href='/lightsaml/login'>Light Saml</a>
+            <a class='link' href='/saml2/auth0/login'>Using OneLogin Toolkit</a>
+            <a class='link' href='/login'>Auth0 SDK</a>
+            <a class='link' href='#'>OneLogin SDK</a>
         </div>
-        <!-- social icons -->
-        <p class="social a">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-        </p>
-        <p class='center-footer'>OnlyLinx Created by
-            <a href='https://codepen.io/hassified' target="_blank">Hassified</a>
-        </p>
     </div>
 </body>
 
